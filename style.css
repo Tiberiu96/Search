@@ -1,0 +1,60 @@
+*{
+	margin:0;
+	padding:0;
+	background: #F1F5F8;
+	box-sizing:border-box;
+}
+.welcome{
+	background-color:#5A9BFF;
+	text-align:center;
+	color:#FCFFFF;
+	padding:15px;
+}
+.welcome h1{
+	font-family: Tahoma;
+	background:#5A9BFF;
+	text-transform: uppercase;
+}
+
+.search-div{
+	padding:15px;
+	background-color:#FFFFFF;
+	text-align:center;
+}
+.search-div input{
+	width:300px;
+	_height:30px;
+	padding:8px;
+	border: 1px solid #7C99B7;
+}
+.search-div button{
+	background-color:#2D7DF6;
+	border-style:none;
+	width:70px;
+	margin:0;
+	padding:8px;
+	color:#FFFF;
+}
+.container{
+	padding:50px 200px 50px 200px;
+
+}
+.mini-container{
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	background-color:#FFFFFF;
+	width:100%;
+	height:490px;
+	overflow:auto;
+}
+#cauta{
+	cursor:pointer;
+
+}
+#cauta:hover{
+	background:#99CC00; 
+}
+input, button{
+	outline:0;
+}
